@@ -1,0 +1,42 @@
+.clock-container {
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.clock-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clock-time {
+  font-size: 24px;
+}
+
+.timezoneselector-container {
+  text-align: center;
+}
+
+button {
+  margin-left: 8px;
+  display: inline-block;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timezoneselector-container button:hover {
+  background-color: #aaa;
+}
+
+.clocklist-container {
+  text-align: center;
+}
